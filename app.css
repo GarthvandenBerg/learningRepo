@@ -49,3 +49,32 @@ body {
     top: 0px;
     z-index: 1;
 }
+
+#shop-items {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.shop-item {
+    left: 100px;
+    background-color: aqua;
+    padding: 2rem;
+}
+
+.item-label {
+    font-size: 20px;
+    color: #9e9c9c;
+    text-align: center;
+}
+
+.shop-item-button{
+    padding: 30px;
+    font-size: 30px;
+    border-radius: 15px;
+}
+
+.shop-item-button:hover{
+    background-color: blue;
+}
