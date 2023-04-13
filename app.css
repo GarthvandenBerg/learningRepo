@@ -70,11 +70,28 @@ body {
 }
 
 .shop-item-button{
-    padding: 30px;
-    font-size: 30px;
+    padding: 10px;
+    font-size: 20px;
     border-radius: 15px;
 }
 
 .shop-item-button:hover{
     background-color: blue;
+}
+
+#cart input:hover {
+    background-color: aqua;
+}
+
+#cart input {
+    padding:10px;
+    align-items: center;
+}
+
+#result {
+    background-color: #fff;
+}
+
+.item-cost:before {
+    content: "R";
 }
