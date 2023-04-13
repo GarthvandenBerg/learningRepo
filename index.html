@@ -20,27 +20,34 @@
     <main>
         <div id="shop-items">
             <div class="shop-item">
-                <p class="item-label">Orange</p>
+                <p class="item-label">Orange</p> <span class="item-cost">R1.5</span>
                 <input type="button" class="shop-item-button" value="Buy">
+                <p class="item-count">0</p>
             </div>
             <div class="shop-item">
-                <p class="item-label">Apple</p>
-                <input type="button" class="shop-item-button" value="Buy">
+                <p class="item-label">Apple</p> <span class="item-cost">R2</span>
+                <input type="button" class="shop-item-button subtract" value="Minus"><input type="button" class="shop-item-button add" value="Add">
+                <p class="item-count">0</p>
             </div>
             <div class="shop-item">
-                <p class="item-label">Pear</p>
+                <p class="item-label">Pear</p><span class="item-cost">R4</span>
                 <input type="button" class="shop-item-button" value="Buy">
+                <p class="item-count">0</p>
             </div>
             <div class="shop-item">
-                <p class="item-label">Tomato</p>
+                <p class="item-label">Tomato</p><span class="item-cost">R2</span>
                 <input type="button" class="shop-item-button" value="Buy">
+                <p class="item-count">0</p>
             </div>
             <div class="shop-item">
-                <p class="item-label">Kiwi</p>
+                <p class="item-label">Kiwi</p><span class="item-cost">R3</span>
                 <input type="button" class="shop-item-button" value="Buy">
+                <p class="item-count">0</p>
             </div>
         </div>
+        <div id="cart"></div>
     </main>
     <script src="app.js"></script>
+    <script src="cart.js"></script>
 </body>
 </html>
